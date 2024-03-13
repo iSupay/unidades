@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(134, 116, 90);
+    color: rgb(255, 255, 255);
+}
+
+.contenedor{
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 1000px;
+    display: block;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+img{
+    display: block;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 8px;
+    text-align: center ;
+    filter: saturate(50%) sepia(50%) brightness(80%);
+}
